@@ -8,7 +8,7 @@ import org.junit.Test;
 import com.ads.businessentities.User;
 import com.ads.businessobjects.UserBusinessObject;
 
-public class UserBusinessObjectsTests {
+public class UserBusinessObjectsTest {
 
 	UserBusinessObject bobj = new UserBusinessObject();
 		@Before
