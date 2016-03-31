@@ -42,7 +42,7 @@ public class UserBusinessObjectsTest {
 		    }
 		  @Test
 		  public void TestAddnewInsuranceType() {
-			  
+			  boolean isTrue = true;
 		    assertEquals("Expecting 100", 100, 100);
 		    }
 }
