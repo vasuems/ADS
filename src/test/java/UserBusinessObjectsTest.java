@@ -12,7 +12,7 @@ import com.ads.businessobjects.UserBusinessObject;
 
 public class UserBusinessObjectsTest {
 
-	UserBusinessObject bobj = new UserBusinessObject();
+	
 		@Before
 		  public void setUp() throws Exception {
 		    // NiceMocks return default values for
@@ -22,6 +22,7 @@ public class UserBusinessObjectsTest {
 		//Test method
 		  @Test
 		  public void testUserId() {
+			  UserBusinessObject bobj = new UserBusinessObject();
 			  User returnUser = null;
 			  User user = new User();
 			  user.setId(1);
@@ -35,6 +36,7 @@ public class UserBusinessObjectsTest {
 		    }
 		  @Test
 		  public void testUserFirstName() {
+			  UserBusinessObject bobj = new UserBusinessObject();
 			  User returnUser = null;
 			  User user = new User();
 			  user.setFirstName("Techcom");;
@@ -48,6 +50,7 @@ public class UserBusinessObjectsTest {
 		    }
 		  @Test
 		  public void testUserLastName() {
+			  UserBusinessObject bobj = new UserBusinessObject();
 			  User returnUser = null;
 			  User user = new User();
 			  user.setFirstName("User");;
