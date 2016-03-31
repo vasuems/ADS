@@ -30,7 +30,7 @@ public class UserBusinessObjectsTest {
 			    } catch (RuntimeException e) {
 	
 			    }
-			    assertEquals("Expecting 100", 1, 1);
+			    assertEquals("Expecting 100", 1, user.getId());
 		    }
 		  @Test
 		  public void testUserFirstName() {
@@ -42,7 +42,7 @@ public class UserBusinessObjectsTest {
 			    } catch (RuntimeException e) {
 	
 			    }
-			    assertEquals("Expecting Techcom", "Techcom", "TechCom");
+			    assertEquals("Expecting Techcom", "Techcom", user.getFirstName());
 		    }
 		  @Test
 		  public void testUserLastName() {
@@ -54,6 +54,6 @@ public class UserBusinessObjectsTest {
 			    } catch (RuntimeException e) {
 	
 			    }
-			    assertEquals("Expecting Techcom", "User", "User");
+			    assertEquals("Expecting Techcom", "User", user.getLastName());
 		    }
 }
