@@ -40,7 +40,7 @@ public class UserBusinessObjectsTest {
 		    } catch (RuntimeException e) {
 
 		    }
-		    assertEquals("Expecting 100", 100, 100);
+		    assertEquals("Expecting 100", 100, 1);
 		    }
 		  @Test
 		  public void TestAddnewInsuranceType() {
