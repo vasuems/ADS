@@ -27,6 +27,7 @@ public class UserBusinessObjectsTest {
 			  expectedUser.setFirstName("Vasu ");
 			  expectedUser.setLastName("Devan");
 			  expectedUser.setId(100);
+			  //comments by siva
 		    // Setting up the expected value of the method call
 		    //expect(bobj.Add(inputUser)).andReturn(expectedUser);
 		    // Setup is finished need to activate the mock
