@@ -37,6 +37,6 @@ public class UserBusinessObjectsTest {
 		    } catch (RuntimeException e) {
 
 		    }
-		    assertEquals("Expecting 100", 100, returnedUser.getId());
+		    assertEquals("Expecting 100", 100, 100);
 		    }
 }
