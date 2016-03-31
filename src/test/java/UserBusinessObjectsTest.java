@@ -1,4 +1,4 @@
-//testing pull request for techcom demo. Removing comments to trigger build.
+//testing pull request for techcom demo.
 
 package test.java;
 import static org.junit.Assert.assertEquals;
@@ -40,11 +40,11 @@ public class UserBusinessObjectsTest {
 		    } catch (RuntimeException e) {
 
 		    }
-		    assertEquals("Expecting 100", 100, 1);
+		    assertEquals("Expecting 100", 100, 25);
 		    }
 		  @Test
 		  public void TestAddnewInsuranceType() {
 			  boolean isTrue = true;
-		    assertEquals("Expecting 100", 100,1);
+		    assertEquals("Expecting 100", 100,25);
 		    }
 }
