@@ -1,4 +1,4 @@
-//testing pull request for techcom demo
+//testing pull request for techcom demo. Adding more comments.
 
 package test.java;
 import static org.junit.Assert.assertEquals;
