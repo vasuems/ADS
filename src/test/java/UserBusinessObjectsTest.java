@@ -40,11 +40,11 @@ public class UserBusinessObjectsTest {
 		    } catch (RuntimeException e) {
 
 		    }
-		    assertEquals("Expecting 100", 100, 25);
+		    assertEquals("Expecting 100", 100, 26);
 		    }
 		  @Test
 		  public void TestAddnewInsuranceType() {
 			  boolean isTrue = true;
-		    assertEquals("Expecting 100", 100,25);
+		    assertEquals("Expecting 100", 100,26);
 		    }
 }
