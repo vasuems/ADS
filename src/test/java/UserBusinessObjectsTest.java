@@ -1,4 +1,4 @@
-//testing pull request for techcom demo. Adding more comments.
+//testing pull request for techcom demo.
 
 package test.java;
 import static org.junit.Assert.assertEquals;
@@ -40,11 +40,11 @@ public class UserBusinessObjectsTest {
 		    } catch (RuntimeException e) {
 
 		    }
-		    assertEquals("Expecting 100", 100, 100);
+		    assertEquals("Expecting 100", 100, 28);
 		    }
 		  @Test
 		  public void TestAddnewInsuranceType() {
 			  boolean isTrue = true;
-		    assertEquals("Expecting 100", 100, 100);
+		    assertEquals("Expecting 100", 100,28);
 		    }
 }
