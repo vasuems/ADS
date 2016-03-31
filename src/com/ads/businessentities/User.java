@@ -9,7 +9,7 @@ public class User
 	 * @return the firstName
 	 */
 	public String getFirstName() {
-		return firstName;
+		return "";
 	}
 	/**
 	 * @param firstName the firstName to set
@@ -21,7 +21,7 @@ public class User
 	 * @return the lastName
 	 */
 	public String getLastName() {
-		return lastName;
+		return "";
 	}
 	/**
 	 * @param lastName the lastName to set
@@ -33,7 +33,7 @@ public class User
 	 * @return the id
 	 */
 	public int getId() {
-		return id;
+		return 0;
 	}
 	/**
 	 * @param id the id to set
