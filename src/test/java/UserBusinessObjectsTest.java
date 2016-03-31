@@ -53,7 +53,7 @@ public class UserBusinessObjectsTest {
 			  UserBusinessObject bobj = new UserBusinessObject();
 			  User returnUser = null;
 			  User user = new User();
-			  user.setFirstName("User");;
+			  user.setLastName("User");;
 			    try {
 			    	returnUser = bobj.Add(user);
 			    		//fail("Exception did not occur");
