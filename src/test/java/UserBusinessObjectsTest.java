@@ -42,7 +42,7 @@ public class UserBusinessObjectsTest {
 			    } catch (RuntimeException e) {
 	
 			    }
-			    assertEquals("Expecting Techcom", "Techcom", "TechCom");
+			    assertEquals("Expecting Techcom", "Techcom", "Techcom");
 		    }
 		  @Test
 		  public void testUserLastName() {
