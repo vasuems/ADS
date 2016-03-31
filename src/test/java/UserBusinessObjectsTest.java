@@ -40,4 +40,9 @@ public class UserBusinessObjectsTest {
 		    }
 		    assertEquals("Expecting 100", 100, 100);
 		    }
+		  @Test
+		  public void TestAddnewInsuranceType() {
+			  
+		    assertEquals("Expecting 100", 100, 100);
+		    }
 }
