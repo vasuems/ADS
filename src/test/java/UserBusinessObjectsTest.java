@@ -22,38 +22,41 @@ public class UserBusinessObjectsTest {
 		//Test method
 		  @Test
 		  public void testUserId() {
+			  User returnUser = null;
 			  User user = new User();
 			  user.setId(1);
 			    try {
-			    		bobj.Add(user);
+			    	returnUser = bobj.Add(user);
 			    		//fail("Exception did not occur");
 			    } catch (RuntimeException e) {
 	
 			    }
-			    assertEquals("Expecting 100", 1, user.getId());
+			    assertEquals("Expecting 100", 1, returnUser.getId());
 		    }
 		  @Test
 		  public void testUserFirstName() {
+			  User returnUser = null;
 			  User user = new User();
 			  user.setFirstName("Techcom");;
 			    try {
-			    		bobj.Add(user);
+			    	returnUser = bobj.Add(user);
 			    		//fail("Exception did not occur");
 			    } catch (RuntimeException e) {
 	
 			    }
-			    assertEquals("Expecting Techcom", "Techcom", user.getFirstName());
+			    assertEquals("Expecting Techcom", "Techcom", returnUser.getFirstName());
 		    }
 		  @Test
 		  public void testUserLastName() {
+			  User returnUser = null;
 			  User user = new User();
 			  user.setFirstName("User");;
 			    try {
-			    		bobj.Add(user);
+			    	returnUser = bobj.Add(user);
 			    		//fail("Exception did not occur");
 			    } catch (RuntimeException e) {
 	
 			    }
-			    assertEquals("Expecting Techcom", "User", user.getLastName());
+			    assertEquals("Expecting Techcom", "User", returnUser.getLastName());
 		    }
 }
