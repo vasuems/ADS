@@ -48,6 +48,6 @@ public class InsuranceTypeBusinessObjectsTest {
 			    } catch (RuntimeException e) {
 	
 			    }
-			    assertEquals("Expecting 100", "Jeevan", returnInsuranceType.getInsuranceTypeName());
+			    assertEquals("Expecting 100", "Jeevan Jothi", returnInsuranceType.getInsuranceTypeName());
 		    }		  
 }

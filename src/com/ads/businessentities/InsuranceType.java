@@ -8,7 +8,7 @@ public class InsuranceType
 	 * @return the firstName
 	 */
 	public String getInsuranceTypeName() {
-		return insuranceTypeName;
+		return "";
 	}
 	/**
 	 * @param firstName the firstName to set
@@ -20,7 +20,7 @@ public class InsuranceType
 	 * @return the id
 	 */
 	public int getId() {
-		return id;
+		return -1;
 	}
 	/**
 	 * @param id the id to set
