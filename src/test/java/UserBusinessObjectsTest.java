@@ -12,7 +12,7 @@ import com.ads.businessobjects.UserBusinessObject;
 
 public class UserBusinessObjectsTest {
 
-	UserBusinessObject bobj = new UserBusinessObject();
+	
 		@Before
 		  public void setUp() throws Exception {
 		    // NiceMocks return default values for
@@ -21,30 +21,45 @@ public class UserBusinessObjectsTest {
 		  }
 		//Test method
 		  @Test
-		  public void testAddUser() {
-			  User inputUser = new User();
-			  inputUser.setFirstName("Vasu ");
-			  inputUser.setLastName("Devan");
-			  User expectedUser = new User();
-			  expectedUser.setFirstName("Vasu ");
-			  expectedUser.setLastName("Devan");
-			  expectedUser.setId(100);
-			  //comments by siva
-		    // Setting up the expected value of the method call
-		    //expect(bobj.Add(inputUser)).andReturn(expectedUser);
-		    // Setup is finished need to activate the mock
-		    User returnedUser = null;
-		    try {
-		      returnedUser = bobj.Add(inputUser);
-		      //fail("Exception did not occur");
-		    } catch (RuntimeException e) {
-
-		    }
-		    assertEquals("Expecting 100", 100, 28);
+		  public void testUserId() {
+			  UserBusinessObject bobj = new UserBusinessObject();
+			  User returnUser = null;
+			  User user = new User();
+			  user.setId(1);
+			    try {
+			    	returnUser = bobj.Add(user);
+			    		//fail("Exception did not occur");
+			    } catch (RuntimeException e) {
+	
+			    }
+			    assertEquals("Expecting 100", 1, returnUser.getId());
 		    }
 		  @Test
-		  public void TestAddnewInsuranceType() {
-			  boolean isTrue = true;
-		    assertEquals("Expecting 100", 100,28);
+		  public void testUserFirstName() {
+			  UserBusinessObject bobj = new UserBusinessObject();
+			  User returnUser = null;
+			  User user = new User();
+			  user.setFirstName("Techcom");;
+			    try {
+			    	returnUser = bobj.Add(user);
+			    		//fail("Exception did not occur");
+			    } catch (RuntimeException e) {
+	
+			    }
+			    assertEquals("Expecting Techcom", "Techcom", returnUser.getFirstName());
+		    }
+		  @Test
+		  public void testUserLastName() {
+			  UserBusinessObject bobj = new UserBusinessObject();
+			  User returnUser = null;
+			  User user = new User();
+			  user.setLastName("User");;
+			    try {
+			    	returnUser = bobj.Add(user);
+			    		//fail("Exception did not occur");
+			    } catch (RuntimeException e) {
+	
+			    }
+			    assertEquals("Expecting Techcom", "User", returnUser.getLastName());
 		    }
 }
