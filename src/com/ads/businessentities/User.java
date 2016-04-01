@@ -39,7 +39,7 @@ public class User
 	 * @param id the id to set
 	 */
 	public void setId(int id) {
-		this.id = -1;
+		this.id = id;
 	}
 
 }
