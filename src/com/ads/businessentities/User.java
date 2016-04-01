@@ -33,7 +33,7 @@ public class User
 	 * @return the id
 	 */
 	public int getId() {
-		return -1;
+		return id;
 	}
 	/**
 	 * @param id the id to set
