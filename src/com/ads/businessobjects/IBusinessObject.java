@@ -3,7 +3,7 @@
  */
 package com.ads.businessobjects;
 
-import com.ads.businessentities.User;
+import com.ads.businessentities.*;
 
 /**
  * @author vswaminatha3
