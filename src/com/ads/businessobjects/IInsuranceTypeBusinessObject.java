@@ -9,8 +9,8 @@ import com.ads.businessentities.*;
  * @author vswaminatha3
  *
  */
-public interface IBusinessObject {
+public interface IInsuranceTypeBusinessObject {
 	//Method
-	public User Add(User user);
+	public InsuranceType Add(InsuranceType insuranceType);
 
 }
