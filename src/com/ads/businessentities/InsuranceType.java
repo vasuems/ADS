@@ -20,7 +20,7 @@ public class InsuranceType
 	 * @return the id
 	 */
 	public int getId() {
-		return -2;
+		return -3;
 	}
 	/**
 	 * @param id the id to set
