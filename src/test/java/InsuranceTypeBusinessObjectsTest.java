@@ -27,7 +27,7 @@ public class InsuranceTypeBusinessObjectsTest {
 			  InsuranceTypeBusinessObject bobj = new InsuranceTypeBusinessObject();
 			  InsuranceType returnInsuranceType = null;
 			  InsuranceType insuranceType = new InsuranceType();
-			  insuranceType.setId(4);
+			  insuranceType.setId(2);
 			    try {
 			    	returnInsuranceType = bobj.Add(insuranceType);
 			    		//fail("Exception did not occur");
